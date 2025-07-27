@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python3 -m openvoice.openvoice_app --share",
+    "install-deps": "python3 -m pip install --user -r requirements.txt"
   },
   "keywords": [],
   "author": "",
