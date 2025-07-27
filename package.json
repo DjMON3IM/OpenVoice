@@ -1,13 +1,15 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "<div align=\"center\">   <div>&nbsp;</div>   <img src=\"resources/openvoicelogo.jpg\" width=\"400\"/>",
+  "description": "OpenVoice instant voice cloning system",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python3 -m openvoice.openvoice_app --share",
+    "install-deps": "python3 -m pip install --user -r requirements.txt"
     "start": "python3 -m openvoice.openvoice_app --share",
     "install-deps": "python3 -m pip install --user -r requirements.txt"
   },
